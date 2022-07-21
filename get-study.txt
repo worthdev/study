@@ -38,3 +38,6 @@ git commit -m "작업내용"
 # git 강제 원격 push
 git push -u origin +master
 
+# git 파일 삭제 (로컬저장소 삭제 후 해당 내용을 add -> commit -> push 해야함)
+git rm -rf 파일명
+
