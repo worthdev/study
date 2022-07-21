@@ -29,3 +29,4 @@ git remod add origin https://github.com/worthdev/study.git
 # git 적용 제외 (ignore) : .gitignore 에 파일 추가
 echo *.bak > .gitignore
 
+  
