@@ -1,0 +1,7 @@
+javascript 변수는 var, let, const 를 사용함
+> ES6에서 const와 let이 추가됨
+  https://www.howdy-mj.me/javascript/var-let-const/
+ 
+  let : 변수 중복 선언이 불가하지만, 재할당은 가능하다.
+  const가 let과 다른 점이 있다면, 반드시 선언과 초기화를 동시에 진행되어야 한다.
+
