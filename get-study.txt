@@ -1,8 +1,8 @@
-# git ·¹ÆÄÁöÅä¸® »ı¼ºÇÏ±â
-·¹ÆÄÁöÅä¸® ¿¬°áÇÒ Æú´õ(µğ·ºÅä¸®)¿¡¼­ ¾Æ·¡ ¸í·É¾î ¼öÇà
+# git ë ˆíŒŒì§€í† ë¦¬ ìƒì„±í•˜ê¸°
+ë ˆíŒŒì§€í† ë¦¬ ì—°ê²°í•  í´ë”(ë””ë ‰í† ë¦¬)ì—ì„œ ì•„ë˜ ëª…ë ¹ì–´ ìˆ˜í–‰
 git init 
 
-# git ¼³Á¤ È®ÀÎ
+# git ì„¤ì • í™•ì¸
 git config --list
 
 
@@ -10,34 +10,34 @@ git config --global user.name "worthdev"
 git config --global user.email "rockab@ruhapp.com"
 
 
-# È¸»ç git Å×½ºÆ® ÇØº¸±â 
---git ¸í·É¾î Ã¢¿¡ 
+# íšŒì‚¬ git í…ŒìŠ¤íŠ¸ í•´ë³´ê¸° 
+--git ëª…ë ¹ì–´ ì°½ì— 
 git config --global user.name "dhlim"
 git config --global user.email "dhlim@bflysoft.com"
 
 git config credential.helper store
-> À§ÀÇ ¸í·É¾î ÀÔ·ÂÈÄ git clone À» ÇÏ¸é ÀÔ·ÂÃ¢À¸·Î id ¿Í PW ¸¦ ¹°¾îº½
-> github ¿¡ ¿Ã¸®±â À§ÇØ¼­ ±êÇãºê ¾Æ·¡ÀÇ °æ·Î¿¡¼­ ÀÎÁõÅ°¸¦ ¸¸µé¾î¾ßÇÔ
+> ìœ„ì˜ ëª…ë ¹ì–´ ì…ë ¥í›„ git clone ì„ í•˜ë©´ ì…ë ¥ì°½ìœ¼ë¡œ id ì™€ PW ë¥¼ ë¬¼ì–´ë´„
+> github ì— ì˜¬ë¦¬ê¸° ìœ„í•´ì„œ ê¹ƒí—ˆë¸Œ ì•„ë˜ì˜ ê²½ë¡œì—ì„œ ì¸ì¦í‚¤ë¥¼ ë§Œë“¤ì–´ì•¼í•¨
   Settings > Developer settings
 
-# ¿ø°İ¿¡ ÀÖ´Â ·¹ÆÄÁöÅä¸® ·ÎÄÃ·Î º¹»çÇÏ±â
+# ì›ê²©ì— ìˆëŠ” ë ˆíŒŒì§€í† ë¦¬ ë¡œì»¬ë¡œ ë³µì‚¬í•˜ê¸°
 git clone 
 
-# ¿ø°İ ÀúÀå¼ÒÀÇ ÀÌ¸§À» origin À¸·Î Á¤ÀÇÇÔ
+# ì›ê²© ì €ì¥ì†Œì˜ ì´ë¦„ì„ origin ìœ¼ë¡œ ì •ì˜í•¨
 git remote add origin https://github.com/worthdev/study.git
 
-# git Àû¿ë Á¦¿Ü (ignore) : .gitignore ¿¡ ÆÄÀÏ Ãß°¡
+# git ì ìš© ì œì™¸ (ignore) : .gitignore ì— íŒŒì¼ ì¶”ê°€
 echo *.bak > .gitignore
 
-# ·ÎÄÃ ·¹ÆÄÁöÅä¸®¿¡¼­ º¯°æµÈ ÆÄÀÏ stage·Î ¿Å±â±â
+# ë¡œì»¬ ë ˆíŒŒì§€í† ë¦¬ì—ì„œ ë³€ê²½ëœ íŒŒì¼ stageë¡œ ì˜®ê¸°ê¸°
 git add -A
 
-# statge ¿¡¼­ commit ÇÏ±â
-git commit -m "ÀÛ¾÷³»¿ë"
+# statge ì—ì„œ commit í•˜ê¸°
+git commit -m "ì‘ì—…ë‚´ìš©"
 
-# git °­Á¦ ¿ø°İ push
+# git ê°•ì œ ì›ê²© push
 git push -u origin +master
 
-# git ÆÄÀÏ »èÁ¦ (·ÎÄÃÀúÀå¼Ò »èÁ¦ ÈÄ ÇØ´ç ³»¿ëÀ» add -> commit -> push ÇØ¾ßÇÔ)
-git rm -rf ÆÄÀÏ¸í
+# git íŒŒì¼ ì‚­ì œ (ë¡œì»¬ì €ì¥ì†Œ ì‚­ì œ í›„ í•´ë‹¹ ë‚´ìš©ì„ add -> commit -> push í•´ì•¼í•¨)
+git rm -rf íŒŒì¼ëª…
 
