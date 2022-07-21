@@ -26,4 +26,3 @@ git clone
 # 원격 저장소의 이름을 origin 으로 정의함
 git remod add origin https://github.com/worthdev/study.git
 
-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
