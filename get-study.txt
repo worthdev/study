@@ -29,4 +29,4 @@ git remote add origin https://github.com/worthdev/study.git
 # git 적용 제외 (ignore) : .gitignore 에 파일 추가
 echo *.bak > .gitignore
 
-추가내용
+추가내용 
