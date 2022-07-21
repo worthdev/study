@@ -29,5 +29,12 @@ git remote add origin https://github.com/worthdev/study.git
 # git 적용 제외 (ignore) : .gitignore 에 파일 추가
 echo *.bak > .gitignore
 
+# 로컬 레파지토리에서 변경된 파일 stage로 옮기기
+git add -A
+
+# statge 에서 commit 하기
+git commit -m "작업내용"
+
 # git 강제 원격 push
 git push -u origin +master
+
