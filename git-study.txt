@@ -41,3 +41,9 @@ git push -u origin +master
 # git 파일 삭제 (로컬저장소 삭제 후 해당 내용을 add -> commit -> push 해야함)
 git rm -rf 파일명
 
+# 파일명 변경 
+  - git 으로 traking 되고 있는 경우는 git mv (원본파일명) (변경파일명) 명령으로 변경
+  - git 으로 traking 되지 않는 경우는 그냥 mv 로 변경가능(윈도우는 탐색기 가능)
+git mv (원본파일명) (변경파일명)
+
+
